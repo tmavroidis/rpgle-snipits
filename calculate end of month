@@ -1,0 +1,1 @@
+$todate = (%date() - %days(%subdt(%date(): *days))) + %months(1);  
