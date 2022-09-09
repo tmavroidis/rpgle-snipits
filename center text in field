@@ -1,0 +1,3 @@
+strlen = 50;
+Pos = (StrLen - %Len(%Trim(in_compny)))/2 + 1;
+%Subst(compny:Pos) = %Trim(in_compny); 
